@@ -1,14 +1,19 @@
-	{
-		"products": [
-			{
-				"id": 1,
-				"name": "Maça",
-				"price": 3.50
-			},
-			{
-				"id": 2,
-				"name": "Pera",
-				"price": 2.50
-			}
-		]
-	}
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Maça",
+      "price": 3.5
+    },
+    {
+      "id": 2,
+      "name": "Pera",
+      "price": 2.5
+    },
+    {
+      "name": "Laranja",
+      "price": 4.7,
+      "id": 3
+    }
+  ]
+}
