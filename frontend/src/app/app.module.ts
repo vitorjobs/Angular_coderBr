@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component'
+import { ProductCreateComponent } from './components/template/product/product-create/product-create.component';
 
 /**Material Design ToolBar - Header, Footer, Nav */
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -33,7 +34,8 @@ import { ForDirective } from './directives/for.directive';
     HomeComponent,
     ProductCrudComponent,
     RedDirective,
-    ForDirective
+    ForDirective,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
