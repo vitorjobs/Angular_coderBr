@@ -31,7 +31,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## ng generate component components/template/header | ng g c
 ## ng generate component components/template/footer | ng g c components/template/footer
 ## ng generate component components/template/nav | ng g c components/template/nav
-## ng generate component components/template/product/product-create
+## ng generate component components/product/product-create
+## ng generate component components/product/product-read
 
 
 # VIEWS
@@ -45,3 +46,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # SERVICES
 ## ng generate service components/product/produtc | ng g s components/product/produtc
 
+# OBSERVABLE
+## CRIAR PRODUTOS
+
+
+git commit -m ":sparkles: feat:
