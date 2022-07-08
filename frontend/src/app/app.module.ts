@@ -11,12 +11,13 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component'
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
-/**Material Design ToolBar - Header, Footer, Nav */
+/**Material Design ToolBar - Header, Footer, Nav, SnakBar*/
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 /** VIEWS */
 import {HomeComponent} from './views/home/home.component';
@@ -46,7 +47,8 @@ import { ForDirective } from './directives/for.directive';
     MatListModule,
     MatSidenavModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
