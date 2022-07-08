@@ -27,6 +27,10 @@ import {ProductCrudComponent} from './views/product-crud/product-crud.component'
 import {RedDirective} from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 
+/** OBSERVABLE - CHAMADAS À API */
+import {HttpClientModule} from '@angular/common/http';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,7 +52,8 @@ import { ForDirective } from './directives/for.directive';
     MatSidenavModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
