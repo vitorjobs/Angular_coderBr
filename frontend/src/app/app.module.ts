@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component'
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { ProductReadComponent }   from './components/product/product-read/product-read.component';
 
 /**Material Design ToolBar - Header, Footer, Nav, SnakBar, Forms*/
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -44,7 +45,8 @@ import {HttpClientModule} from '@angular/common/http';
     ProductCrudComponent,
     RedDirective,
     ForDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
