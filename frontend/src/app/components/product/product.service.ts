@@ -24,8 +24,13 @@ export class ProdutcService {
     })
   }
 
- // POST RETORNA UM OBSERVABLE 
+ // POST RETORNA UM OBSERVABLE COM AS INFORMAÇÕES DO FORMULÁRIO PARA ENVAR AO BACKEND
   create(product: Product): Observable<Product>{
     return this.http.post<Product>(this.baseUrl, product)
+  }
+
+  // GET RETORNA UM OBSERVABLE COM AS INFORMAÇÕES DE PRODUTOS VINDAS DO BACKEND
+  read(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.baseUrl)
   }
 }
