@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Components
+
+## ng generate component components/template/header | ng g c
+## ng generate component components/template/footer | ng g c components/template/footer
+## ng generate component components/template/nav | ng g c components/template/nav
+## ng generate component components/template/product/product-create
+
+
+# VIEWS
+## ng g c views/home
+## ng g c views/product-crud
+
+# DIRETIVAS
+## ng g d directives/red
+## ng g d directives/for
+
+# SERVICES
+## ng generate service components/product/produtc | ng g s components/product/produtc
+
