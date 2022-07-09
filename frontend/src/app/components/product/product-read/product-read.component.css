@@ -4,4 +4,19 @@
 
 table{
   width: 100%;
+  
+}
+
+.edit{
+  margin-right: 10px;
+}
+
+.edit > i{
+  color: darkgoldenrod;
+  font-weight: 700;
+}
+
+.delete > i{
+  color: brown;
+  font-weight: 700;
 }
