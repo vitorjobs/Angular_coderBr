@@ -14,6 +14,11 @@
       "name": "Laranja",
       "price": 4.7,
       "id": 3
+    },
+    {
+      "name": "Pêra",
+      "price": 4.7,
+      "id": 3
     }
   ]
 }
